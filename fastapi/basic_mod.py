@@ -37,3 +37,7 @@ def create_item(item: Item):
 @app.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):
     return {"item_id": item_id, "item": item}
+
+@app.delete("/items/{item_id}")
+def delete_item(item_id: int):
+    return {"item_id": item_id}
