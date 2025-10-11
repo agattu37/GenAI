@@ -31,7 +31,12 @@ def get_movies_by_filter(year: str = None):
 
     if year:
         #search_filter["year"] = {"$regex" : year, "$options" : "i"}
-        search_filter["year"] = int(year)
+        #search_filter["year"] = int(year)
+        search_filter["year"] = year
+    if title:
+        search_filter["title"] = {"$regex" : title, "$options" : "i"}
+    if plot:
+        search_filter["price"] = {"$regex" : plot, "$options" : "i"} 
 
     results = list(movie_collection.find(search_filter))
 
