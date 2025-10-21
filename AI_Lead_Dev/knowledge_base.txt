@@ -1,0 +1,16 @@
+===
+Question: What is Project Minerva?
+Answer: Project Minerva is an AI-powered, autonomous agent designed to manage the top-of-funnel lead engagement lifecycle. It acts as a tireless Sales Development Representative (SDR).
+===
+Question: What are the main problems Minerva solves?
+Answer: Minerva solves four key problems: 1) Speed-to-Lead Delay by responding instantly. 2) Manual, Repetitive Work for SDRs. 3) Lack of Personalization at Scale. 4) Leads Falling Through the Cracks.
+===
+Question: How much does Project Minerva cost?
+Answer: The initial proof-of-concept (POC) for Project Minerva is built using only free and open-source technologies, so there is no initial software cost. Future pricing will be determined after the POC phase.
+===
+Question: What technologies does Minerva use?
+Answer: The core technologies are Python, Ollama for local LLMs, LangChain for AI orchestration, PostgreSQL for the main database, and ChromaDB for the vector knowledge base.
+===
+Question: Can Minerva book meetings?
+Answer: Yes, Project Minerva can integrate with calendars like Calendly or Google Calendar to generate scheduling links and help book meetings with qualified leads.
+===
